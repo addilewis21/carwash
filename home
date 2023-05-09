@@ -1,0 +1,298 @@
+<!DOCTYPE>
+<html>
+<head>
+    <title>Car Wash</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Self Serve and Automatic Carwash with vacuums">
+    <meta name="keywords" content="car wash, self serve, 24 hours, large bays, vacuums, auto bay, triple foam, RV bay, dryers, quarters, coin machine, cash, card readers">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+           <!-- Links the External JS Boostrap 5.0 (And Popper.js they they use for tooltips) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    
+       <!-- Navigation -->
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light diamond">
+
+		<div class="container-fluid">
+			
+        	<a class="navbar-brand" href="index.html"> <img src="logo1.png" alt="Business Logo" style="height: 5em;"></a>
+<!-- Hidden Mobile Nav Button -->
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+         </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav">
+                    <li class="nav-item">
+              			<a class="nav-link" href="index.html">Home</a>
+         			</li>
+       				<li class="nav-item">
+              			<a class="nav-link" href="carwash.html">Car Wash</a>
+         			</li>
+     				<li class="nav-item">
+              			<a class="nav-link" href="laundromat.html">Laundromat</a>
+         			</li>
+                    <li class="nav-item">
+              			<a class="nav-link" href="contact.html">Contact Us</a>
+         			</li>
+    			</ul>
+			</div>
+		</div>
+</nav>
+
+    
+<div class="container-fluid">
+    
+     <div style="text-align: center">
+    <img style="width: 20%;" src="carwashheadrrr.png" alt="Laundromat Logo">
+    </div>
+ 
+    
+   <!-- Icons Grid -->
+      <section class="features-icons bg-light text-center">
+            <div class="container">
+                <div class="row text-center">
+                    
+                    <div class="col-sm-3">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-dark"></i>
+                            <i class="fas fa-car fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h3 class="my-3">3 Self Serve Bays</h3>
+                        <p class="text-muted">We have 3 self serve bays that are always avaliable, offering 10 different sprayer options including, high water pressure, triple foam, foaming brush, and an air dryer</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-dark"></i>
+                            <i class="fas fa-bus fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h3 class="my-3">RV Bay</h3>
+                        <p class="text-muted">Our self serve RV bay has a height allowance of 11' 8" offers everything our self serve bays have plus extended hoses and is perfect for cleaning campers and larger vehicles</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-dark"></i>
+                            <i class="fas fa-magic fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h3 class="my-3">Automatic Soft Touch Bay</h3>
+                        <p class="text-muted">With the latest technology in soft touch washes, this fast and efficiant wash has 3 package options and is garenteed to leave your car sparkling</p>
+                    </div>
+                    <div class="col-sm-3">
+                                          <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-dark"></i>
+                            <i class="fas fa-hand-sparkles fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h3 class="my-3">Vacuums</h3>
+                        <p class="text-muted">We have 4 high suction self serve vacuums, they are equipted with air compressures and built in gages to inflate tires up to 80psi</p>       
+                    </div>
+
+            </div>
+         </div>
+        </section>
+    <br>
+
+
+    <!-- Container for the image gallery -->
+<div class="container">
+
+      <!-- Full-width images with number text -->
+      <div class="mySlides">
+        <div class="numbertext">1 / 6</div>
+          <img src="carwashmain.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2 / 6</div>
+          <img src="carwash1.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 6</div>
+          <img src="carwash3.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4 / 6</div>
+          <img src="soap.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+          <img src="self.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">6 / 6</div>
+          <img src="carpage.png" style="width:100%">
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <!-- Image text -->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+
+      <!-- Thumbnail images -->
+      <div class="row">
+        <div class="col-sm-2">
+          <img class="demo cursor" src="carwashmain.png" style="width:100%" onclick="currentSlide(1)" alt="Auto Wash">
+        </div>
+        <div class="col-sm-2">
+          <img class="demo cursor" src="carwash1.png" style="width:100%" onclick="currentSlide(2)" alt="Air Dryer">
+        </div>
+        <div class="col-sm-2" >
+          <img class="demo cursor" src="carwash3.png" style="width:100%" onclick="currentSlide(3)" alt="Auto Wash">
+        </div>
+        <div class="col-sm-2">
+          <img class="demo cursor" src="soap.png" style="width:100%" onclick="currentSlide(4)" alt="Auto Wash">
+        </div>
+        <div class="col-sm-2">
+          <img class="demo cursor" src="self.png" style="width:100%" onclick="currentSlide(5)" alt="Self Serve Wash">
+        </div>
+        <div class="col-sm-2">
+          <img class="demo cursor" src="carpage.png" style="width:100%" onclick="currentSlide(1)" alt="Auto Wash">
+        </div>
+      </div>
+</div>
+
+    <br>
+    <hr>
+    <div class="container">
+        <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 style= "text-align: center;" class="card-title">Basic Wash</h5>
+                        <h6 class="card-subtitle mb-2 text-muted" style="text-align: center; font-size: 1.2em;">$6</h6>
+                        <ul>
+                          <li>Pre Soak</li>
+                          <li>Soft Scrub</li>
+                          <li>Spot Free Rinse</li>
+                          <li>Single Pass Dry</li>
+                          <li>Pull Through Dryer</li>
+                            
+
+                        </ul>
+                      </div>
+                    </div>
+                </div>
+            
+                <div class="col-sm-4">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 style="text-align: center;" class="card-title">Super Wash</h5>
+                        <h6 class="card-subtitle mb-2 text-muted" style="font-size: 1.2em; text-align: center;s">$8</h6>
+                        <ul>
+                          <li>Pre Soak</li>
+                          <li>Soft Scrub</li>
+                          <li>Spot Free Rinse</li>
+                          <li>Single Pass Dry</li>
+                          <li>Pull Through Dryer</li>
+                          <li>Clear Coat Protectant</li>
+                        </ul>
+                      </div>
+                    </div>
+                </div>
+            
+                <div class="col-sm-4">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 style="text-align: center;" class="card-title">Premium Wash</h5>
+                        <h6 class="card-subtitle mb-2 text-muted" style="font-size: 1.2em; text-align: center;">$10</h6>
+                        <ul>
+                          <li>High Pressure Wash</li>
+                          <li>Pre Soak with Triple Foam Polish</li>
+                          <li>Undercarriage Wash</li>
+                          <li>2x Soft Scrub</li>
+                          <li>Clear Coat Protectant</li>
+                          <li>Turtle Wax ICE Instant Shine</li>
+                        </ul>
+                      </div>
+                    </div>
+                </div>
+        </div>
+        </div><br>
+</div>
+</body>
+    
+    
+<!-- Footer -->
+  <footer class="footer bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+                                <p class="text-muted small mb-4 mb-lg-0">
+                        <a style="color: grey; text-decoration: none; font-size: 16px;" target="_blank" href="https://www.google.com/maps/dir/37.0704384,-113.5771648/one+stop+super+wash/@37.1006418,-113.5727188,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x80ca5bc6d3cd2e53:0x774c65469213e1ab!2m2!1d-113.4978713!2d37.1308252"><i class="fas fa-map-marker-alt"></i> 781 E Telegraph St Washington, Utah 84780</a><br>
+                        <i class="fas fa-phone"></i> <a style="font-size: 16px; color: grey; text-decoration: none;" href=tel: 14352720333″>435-272-0333</a> <br> <i class="fas fa-calendar"></i> Open 24 Hours A Day – 7 Days A Week</p><br>
+          <p class="text-muted small mb-4 mb-lg-0">&copy; One Stop Super Wash 2021. All Rights Reserved.</p>
+        </div>
+        <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item mr-3">
+              <a target="_blank" href="https://www.facebook.com/1stopsuperwash/">
+                <i class="fab fa-facebook fa-4x fa-fw text-dark"></i>
+              </a>
+            </li>
+            <li class="list-inline-item mr-3">
+              <a target="_blank" href="https://twitter.com/1StopSuperWash">
+                <i class="fab fa-twitter-square fa-4x fa-fw text-dark"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+    <br>
+    
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("demo");
+          var captionText = document.getElementById("caption");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+          captionText.innerHTML = dots[slideIndex-1].alt;
+        }
+    </script>
+    
+
+
+
+</html>
